@@ -1,0 +1,35 @@
+.recipe-card-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-card {
+  background: var(--background-dark);
+  color: var(--text-light);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.recipe-card h2 {
+  margin-top: 0;
+}
+
+.recipe-card button {
+  background: var(--primary-green);
+  color: var(--text-light);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}

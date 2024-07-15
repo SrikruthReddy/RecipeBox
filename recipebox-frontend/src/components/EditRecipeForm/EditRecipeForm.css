@@ -1,0 +1,51 @@
+@import '../../variables.css';
+
+.edit-recipe-form {
+  background: var(--text-light);
+  color: var(--background-dark);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.edit-recipe-form h2 {
+  margin-top: 0;
+}
+
+.edit-recipe-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-recipe-form label {
+  margin-bottom: 10px;
+}
+
+.edit-recipe-form input,
+.edit-recipe-form textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid var(--primary-green);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.edit-recipe-form button {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-recipe-form button[type='submit'] {
+  background: var(--primary-green);
+  color: var(--text-light);
+}
+
+.edit-recipe-form button[type='button'] {
+  background: var(--secondary-green);
+  color: var(--background-dark);
+}
